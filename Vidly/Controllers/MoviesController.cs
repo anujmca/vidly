@@ -23,6 +23,7 @@ namespace Vidly.Controllers
                     new Customer() {id = 1, Name = "Anuj"},
                     new Customer() {id = 2, Name = "Bhavna"}
                 }
+
             };
 
             return View(viewModel);
